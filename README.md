@@ -1,1 +1,1 @@
-# spa-react-js-application
+# SPA React JS application on webpack
