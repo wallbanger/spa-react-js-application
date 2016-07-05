@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './page.scss';
 import Header from './Header/Header';
+import Sidebar from './Sidebar/Sidebar'
 import Footer from './Footer/Footer';
 import PrimaryButton from './site/buttons/PrimaryButton';
 import Dropdown from './site/dropdown/Dropdown';
@@ -17,6 +18,7 @@ class Page extends Component {
             <div className={styles.page__content}>
               {text}
               <Dropdown className={styles.page__dropdown} />
+              <Sidebar />
             </div>
             <PrimaryButton />
           </div>
