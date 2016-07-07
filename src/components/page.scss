@@ -1,11 +1,23 @@
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
 .page {
   background: #efefef;
   padding: 20px;
   text-align: center;
+  @include clearfix;
 
   &__container {
     background: #efefef;
+    box-sizing: border-box;
+    float: left;
     padding: 40px 20px;
+    width: 75%;
   }
 
   &__content {
@@ -16,3 +28,5 @@
     margin-left: 10px;
   }
 }
+
+// Main

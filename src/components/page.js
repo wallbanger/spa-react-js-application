@@ -9,22 +9,24 @@ import Dropdown from './site/dropdown/Dropdown';
 class Page extends Component {
 
   render() {
-    const text = 'Site Page';
-
     return (
+      <div>
+        <Header />
         <div className={styles.page}>
-          <Header />
           <div className={styles.page__container}>
             <div className={styles.page__content}>
               {text}
               <Dropdown className={styles.page__dropdown} />
-              <Sidebar />
+              <PrimaryButton />
             </div>
-            <PrimaryButton />
           </div>
-          <Footer />
+          <Sidebar />
         </div>
+        <Footer />
+      </div>
     );
+
+    const text = 'Site Page';
   }
 }
 
