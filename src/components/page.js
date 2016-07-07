@@ -11,8 +11,8 @@ class Page extends Component {
   render() {
     return (
       <div>
-        <Header />
         <div className={styles.page}>
+          <Header />
           <div className={styles.page__container}>
             <div className={styles.page__content}>
               {text}
@@ -20,9 +20,8 @@ class Page extends Component {
               <PrimaryButton />
             </div>
           </div>
-          <Sidebar />
+          <Footer />
         </div>
-        <Footer />
       </div>
     );
 

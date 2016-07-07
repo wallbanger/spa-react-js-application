@@ -1,14 +1,14 @@
 .footer {
-    background: #aaaaaa;
+    background: #fff;
     padding: 20px;
     position: relative;
 
     &__logo {
-        background: #40a070;
+        background: #efefef;
         padding: 20px;
         position: absolute;
         top: 0;
         right: 0;
-        color: #ffffff;
+        color: #000;
     }
 }
