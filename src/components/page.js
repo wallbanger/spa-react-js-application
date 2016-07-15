@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styles from './page.scss';
 import Header from './Header/Header';
-import Sidebar from './Sidebar/Sidebar'
 import Footer from './Footer/Footer';
 import PrimaryButton from './site/buttons/PrimaryButton';
 import Dropdown from './site/dropdown/Dropdown';
