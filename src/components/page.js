@@ -8,6 +8,7 @@ import Dropdown from './site/dropdown/Dropdown';
 class Page extends Component {
 
   render() {
+    let text = 'Site Page';
     return (
       <div>
         <div className={styles.page}>
@@ -23,8 +24,6 @@ class Page extends Component {
         </div>
       </div>
     );
-
-    const text = 'Site Page';
   }
 }
 

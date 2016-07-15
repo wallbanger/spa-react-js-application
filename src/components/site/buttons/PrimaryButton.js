@@ -3,10 +3,12 @@ import React, { Component } from 'react';
 class PrimaryButton extends Component {
 
   render() {
+    let text = 'Site Footer';
+    
     return (
-        <button>
-          Primary Button
-        </button>
+      <button>
+        {text}
+      </button>
     );
   }
 }
